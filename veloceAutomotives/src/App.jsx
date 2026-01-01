@@ -7,16 +7,9 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-    
-     <div> 
       <NavBar/>
-    </div>
-    <div>
-        <MainPage/>
-    </div> 
-    <div>
-      <Contact/>
-    </div> 
+      <MainPage/>
+      <Contact/> 
     </>
   );
 }
