@@ -5,7 +5,7 @@ import bmw from "../assets/bmw.webp";
 import mercedes from "../assets/mercedes.webp";
 import audii from "../assets/audii.webp";
 import chevrolet from "../assets/chevrolet.webp";
-import porcheCar from "../assets/porcheCar.webp";
+import porcheCar from "../assets/porcheCar.png";
 import corvetteCar from "../assets/corvetteCar.webp";
 import bmwCar from "../assets/bmwCar.webp";
 import mercedesCar from "../assets/mercedesCar.webp";
