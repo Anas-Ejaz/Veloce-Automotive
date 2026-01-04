@@ -3,7 +3,7 @@ import VeloceLogo from "../assets/veloce.png"
 
 function Navbar() {
   return (
-    <nav className=" m-0 h-15 flex items-center justify-between fixed top-0 left-0 w-full bg-black opacity-50 z-50">
+    <nav className=" m-0 h-15 flex items-center justify-between fixed top-0 left-0 w-full bg-transparent z-50">
       <div className="veloceLogo size-15">
         <img src={VeloceLogo} alt="image" className="cursor-pointer" />
       </div>
