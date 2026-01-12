@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage";
 import Contact from "./components/Contact";
 import AboutSection from "./components/AboutSection";
 import Hehe from "./components/Hehe";
+import Inventory from "./components/Inventory";
 //import CarBrands from "./components/CarBrands";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <AboutSection/>
       <Contact/> 
       <Hehe/>
+      <Inventory/>
     </>
   );
 }

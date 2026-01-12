@@ -5,8 +5,7 @@ function Contact(){
     return(
         <>
         <div className="flex m-0 bg-stone-500">
-        <Navbar/>
-        
+
         <div className="flex justify-center items-center bg-black m-20 w-300 border rounded-2xl ">
             
             <div>

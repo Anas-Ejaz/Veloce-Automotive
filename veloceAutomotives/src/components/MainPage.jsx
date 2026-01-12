@@ -11,7 +11,7 @@ import bmwCar from "../assets/bmwc.png";
 import mercedesCar from "../assets/mercedesCar.webp";
 import audiiCar from "../assets/audiiCar.webp";
 import chevroletCar from "../assets/chevroletCar.webp";
-import bg from "../assets/bg.png"
+import bg from "../assets/bgg.png"
 import dodge from "../assets/dodgeMain.png"
 
 function MainPage() {
@@ -36,10 +36,10 @@ function MainPage() {
   return (
     <div
       className="w-full h-screen relative overflow-hidden bg-cover bg-center bg-black" >
-         <img src={bg} alt="bg" className="absolute inset-0 w-full h-full object-cover opacity-60"/>
+         <img src={bg} alt="bg" className="absolute inset-0 w-full h-full object-cover bg-black"/>
 
-      <div className="flex relative">
-      <h1 className="absolute top-20 left-10 text-5xl font-extrabold space-x-4">
+      <div className="flex relative bg-black opacity-70">
+      <h1 className="relative top-20 left-10 text-5xl font-extrabold space-x-4">
         <span className="text-gray-400">Subscribe.</span>
         <span className="text-blue-600">Veloce.</span>
         <span className="text-gray-400">Swap.</span>
@@ -64,7 +64,7 @@ function MainPage() {
            className="focus:outline-none">
             <img
               src={car.bg}
-              className="w-12 h-12 object-contain saturate-0 hover:scale-150 hover:saturate-100 transition-all duration-200 cursor-pointer"/>
+              className="w-12 h-12 object-contain saturate-0 hover:scale-120 hover:saturate-100 transition-all duration-200 cursor-pointer"/>
               
 
           </button>

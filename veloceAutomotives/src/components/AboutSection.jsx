@@ -5,7 +5,7 @@ function AboutSection() {
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
       
-      <video src={v1} autoPlay muted loop className="absolute w-full h-full object-cover opacity-25"/>
+      <video src={v1} autoPlay muted loop className="absolute w-full h-full object-cover opacity-25 "/>
 
 
       <div className="relative flex flex-col justify-between h-full pt-10 pl-10">
