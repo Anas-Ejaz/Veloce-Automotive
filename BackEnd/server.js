@@ -1,16 +1,15 @@
 import express from "express";
-import Connection from "./db/connection";
-import productModel from "./db/productSchema";
+// import Connection from "./db/connection";
 
 const app = express();
-const PORT = 2500;
+const PORT = 5000;
 app.use(express.json);
 
 app.listen(PORT, ()=>{
     console.log("server start");
 })
 
-Connection();
+// Connection();
 app.get("/", (req,res)=>{
     res.status(200).json({
         massage: "Home",

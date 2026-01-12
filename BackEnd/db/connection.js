@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const connection = ()=>{
+const Connection = ()=>{
     try{
         mongoose.connect("mongodb://localhost:27017/");
         console.log("Mongodb start");
@@ -7,4 +7,3 @@ const connection = ()=>{
         console.log(`error is ${err}`);
     }
 }
-export default connection;
