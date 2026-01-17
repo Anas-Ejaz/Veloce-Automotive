@@ -18,7 +18,7 @@ function Inventory() {
     <div className='bg-black pt-30 pb-15'>
         
         <div className='flex justify-center'>
-            <input type="search" placeholder='Search make, model or type...' className='mb-10 flex justify-center w-150 px-6 py-4 border border-gray-400 rounded-xl placeholder-gray-400 outline-none' />
+            <input type="search" placeholder='Search make, model or type...' className='mb-10 flex justify-center w-150 px-6 py-4 border border-gray-400 rounded-xl placeholder-gray-400 outline-none text-white' />
 
         </div>
 

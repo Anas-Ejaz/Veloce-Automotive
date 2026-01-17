@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
+import v3 from "../assets/z.mp4";
 
-function Search() {
+function Hehe() {
   return (
-    <div>
-        
+    <div className="relative w-full h-screen overflow-hidden bg-black">
       
-    </div>
-  )
-}
+      <video src={v3} autoPlay muted loop className="absolute w-full h-full object-cover"/>
+      </div>
+      );
+      }
+      export default Hehe;
 
-export default Search

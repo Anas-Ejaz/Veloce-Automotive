@@ -5,17 +5,29 @@ import Contact from "./components/Contact";
 import AboutSection from "./components/AboutSection";
 import Hehe from "./components/Hehe";
 import Inventory from "./components/Inventory";
-//import CarBrands from "./components/CarBrands";
+ import Garage from "./components/Garage";
+import Search from "./components/Search";
+import ProblemSection from "./components/ProblemSection";
+import Hehe2 from "./components/Hehe2";
+
 
 function App() {
   return (
     <>
+    <div className="">
       <NavBar/>
       <MainPage/>
-      <AboutSection/>
-      <Contact/> 
       <Hehe/>
+      <AboutSection/>
+      <Hehe2/>
+      <ProblemSection/>
+      
+      <Contact/> 
+      
       <Inventory/>
+      <Garage/>
+
+      </div>
     </>
   );
 }
