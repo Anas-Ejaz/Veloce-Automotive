@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <div>
       <div className='flex flex-col justify-center items-center w-full h-[60vh]' style={{
-            background: ` linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${aboutImg})`,
+            background: ` linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(${aboutImg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
