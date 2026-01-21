@@ -1,15 +1,16 @@
-import MainPage from "../MainPage";
-import Contact from "../Contact";
-import AboutSection from "../AboutSection";
-import Hehe from "../Hehe";
-import Inventory from "../Inventory";
- import Garage from "../Garage";
-import Search from "../Search";
-import ProblemSection from "../ProblemSection";
-import Hehe2 from "../Hehe2";
+import { useEffect } from "react";
+import MainPage from "./MainPage";
+import AboutSection from "../AboutPage/AboutSection";
+import Hehe from "./Hehe";
+import Inventory from "../InventoryPage/Inventory";
+import ProblemSection from "./ProblemSection";
+import Hehe2 from "./Hehe2";
 
 
 function Home() {
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <div className="">
@@ -18,12 +19,6 @@ function Home() {
       <AboutSection/>
       <Hehe2/>
       <ProblemSection/>
-      
-      <Contact/> 
-      
-      <Inventory/>
-      <Garage/>
-
       </div>
     </>
   );
