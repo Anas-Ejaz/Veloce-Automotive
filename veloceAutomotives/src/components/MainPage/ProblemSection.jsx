@@ -1,12 +1,21 @@
 import React from 'react'
 import Depreciation from "../../assets/depreciation.png"
 import Aprs from "../../assets/interest.png"
+<<<<<<<< HEAD:veloceAutomotives/src/components/MainPage/ProblemSection.jsx
 import Insurance from "../../assets/insurance.png"
 import Maintenance from "../../assets/maintenance.png"
 import Contract from "../../assets/contract.png"
 import Tax from "../../assets/tax.png"
 import Mileage from "../../assets/milage.png"
 import Fees from "../../assets/fees.png"
+========
+import Insurance from "../../assets/insurance.webp"
+import Maintenance from "../../assets/maintenance.webp"
+import Contract from "../../assets/contract.webp"
+import Tax from "../../assets/tax.webp"
+import Mileage from "../../assets/mileage.webp"
+import Fees from "../../assets/fees.webp"
+>>>>>>>> 9cd1fe10039935c3b1230bfa805e5cb053832071:veloceAutomotives/src/components/HomePage/ProblemSection.jsx
 
 function problemSection() {
   return (
