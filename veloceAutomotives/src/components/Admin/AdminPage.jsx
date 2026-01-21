@@ -1,9 +1,9 @@
-import React from 'react'
+import Sidebarpanel from "./Sidebarpanel"
 
 function AdminPage() {
   return (
-    <div>
-      
+    <div className='h-screen w-full'>
+      <Sidebarpanel/>
     </div>
   )
 }
