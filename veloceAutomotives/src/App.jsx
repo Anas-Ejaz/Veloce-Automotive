@@ -1,21 +1,39 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import MainPage from "./components/MainPage";
+import MainSection from "./components/MainPage/MainSection";
 import Contact from "./components/Contact";
-import AboutSection from "./components/AboutSection";
+import AboutSection from "./components/MainPage/ViewVehicles";
 import Hehe from "./components/Hehe";
 import Inventory from "./components/Inventory";
  import Garage from "./components/Garage";
 import Search from "./components/Search";
-import ProblemSection from "./components/ProblemSection";
-import Hehe2 from "./components/Hehe2";
+import ProblemSection from "./components/MainPage/ProblemSection";
+import Subscription from "./components/MainPage/Subscription";
 
 
 function App() {
   return (
     <>
-    <div className="">
-      <NavBar/>
+    <div>
+      {/* <MainPage/> */}
+      <Routes>
+  <Route path="/" element={
+    <>
+    <NavBar/>
+    <MainSection/>
+    <AboutSection />
+    <ProblemSection/>
+    <Subscription/>
+    <Garage/>
+
+    
+    </>
+    } />
+  <Route path="/inventory" element={<Inventory />} />
+  </Routes>
+
+      {/* <NavBar/>
       <MainPage/>
       <Hehe/>
       <AboutSection/>
@@ -25,7 +43,7 @@ function App() {
       <Contact/> 
       
       <Inventory/>
-      <Garage/>
+      <Garage/> */}
 
       </div>
     </>

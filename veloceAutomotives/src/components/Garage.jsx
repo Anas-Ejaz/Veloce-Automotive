@@ -23,7 +23,7 @@ function Garage() {
   return (
     <div className="bg-black">
         <div className="flex flex-row flex-wrap gap-3 p-3 justify-between">
-            <button className="bg-zinc-900 overflow-hidden rounded-2xl h-55 w-73 hover:bg-amber-600 cursor-pointer transition">
+            <button className="bg-zinc-900 overflow-hidden rounded-2xl h-55 w-73 hover:bg-blue-600 cursor-pointer transition">
                 <div className="flex gap-2">
                     <img src={porche} alt="porche" className="w-15 "/>
                     <div className="flex flex-col">

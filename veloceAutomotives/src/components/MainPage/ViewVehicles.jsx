@@ -1,7 +1,8 @@
 import React from "react";
-import v from "../assets/v3.mp4";
+import { Link } from "react-router-dom";
+import v from "../../assets/v7.mp4";
 
-function AboutSection() {
+function ViewVehicles() {
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
       
@@ -11,7 +12,7 @@ function AboutSection() {
       <div className="relative flex flex-col justify-between h-full pt-10 pl-10">
         
         <h2 className="text-3xl font-bold text-gray-400 ">
-          - About us
+          - Why Choose Us? 
         </h2>
 
         <div className="flex justify-center items-center gap-40 text-gray-400  ">
@@ -44,15 +45,17 @@ function AboutSection() {
           </div>
         </div>
 
+        <Link to="/Inventory">
         <div className="flex justify-center pl-200 pb-10">
-          <button className="flex px-20 py-3 text-xl text-white bg-blue-600 opacity-80 rounded hover:bg-blue-500    transition  ">
+          <button className="flex px-20 py-3 text-xl text-white bg-blue-600 opacity-80 rounded hover:opacity-65 transition  ">
             View Vehicles  ➜
           </button>
         </div>
+        </Link>
 
       </div>
     </div>
   );
 }
 
-export default AboutSection;
+export default ViewVehicles;

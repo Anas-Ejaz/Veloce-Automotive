@@ -1,4 +1,7 @@
 @import "tailwindcss";
+:root{
+  background: #000;
+}
 /* hide scrollbar but keep scroll */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
