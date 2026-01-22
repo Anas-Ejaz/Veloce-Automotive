@@ -18,7 +18,7 @@ function Navbar() {
         </NavLink>
       </div>
       
-      <div className="flex flex-col lg:flex-row justify-center gap-3 items-center">
+      <div className="flex flex-col lg:flex-row justify-center gap-3 pr-5 items-end lg:pr-0 lg:items-center">
         
         <NavLink to={'/Signup'} className="order-3 lg:order-1 p-1.25 pr-5 pl-5 rounded-[10px] bg-transparent border-[2px] border-blue-700 text-white hover:bg-blue-700">SignUp</NavLink>
         <NavLink to={'/Login'} className="order-2 lg:order-2 bg-blue-700 p-1.25 pr-5 pl-5 rounded-[10px] hover:bg-transparent border-[2px] border-blue-700 text-white">Login</NavLink>
