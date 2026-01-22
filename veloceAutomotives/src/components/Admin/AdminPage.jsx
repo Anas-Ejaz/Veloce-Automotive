@@ -1,9 +1,9 @@
-import React from 'react'
+import Dashboard from "./Dashboard";
 
 function AdminPage() {
   return (
-    <div>
-      
+    <div className="h-screen w-full flex">
+      <Dashboard/>
     </div>
   )
 }
