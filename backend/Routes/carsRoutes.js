@@ -1,21 +1,21 @@
 const express = require("express");
 const router = express.Router();
-const Product = require("../Models/cars");
+const Cars = require("../Models/cars");
 
-// CREATE product
+// CREATE car
 router.post("/", async (req, res) => {
-  const Cars = new Product(req.body);
-  await Cars.save();
-  res.send(Cars);
+  const car = new Cars(req.body);
+  await car.save();
+  res.send(car);
 });
 
-// READ all products
+// READ all cars
 router.get("/", async (req, res) => {
-  const products = await Cars.find();
-  res.send(Cars);
+  const cars = await Cars.find();
+  res.send(cars);
 });
 
-// UPDATE product
+// UPDATE car
 router.put("/:id", async (req, res) => {
   const updated = await Cars.findByIdAndUpdate(
     req.params.id,
@@ -25,7 +25,7 @@ router.put("/:id", async (req, res) => {
   res.send(updated);
 });
 
-// DELETE product
+// DELETE car
 router.delete("/:id", async (req, res) => {
   await Cars.findByIdAndDelete(req.params.id);
   res.send("Car Deleted");

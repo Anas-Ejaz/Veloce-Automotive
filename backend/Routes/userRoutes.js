@@ -1,23 +1,23 @@
 const express = require("express");
 const router = express.Router();
-const Product = require("../Models/user");
+const User = require("../Models/user");
 
 // CREATE USER
 router.post("/", async (req, res) => {
-  const Users = new Users(req.body);
-  await Users.save();
-  res.send(Users);
+  const user = new User(req.body);
+  await user.save();
+  res.send(user);
 });
 
 // READ all USERS
 router.get("/", async (req, res) => {
-  const products = await Users.find();
-  res.send(Users);
+  const users = await User.find();
+  res.send(users);
 });
 
 // UPDATE USER
 router.put("/:id", async (req, res) => {
-  const updated = await Users.findByIdAndUpdate(
+  const updated = await User.findByIdAndUpdate(
     req.params.id,
     req.body,
     { new: true }
@@ -27,7 +27,7 @@ router.put("/:id", async (req, res) => {
 
 // DELETE USER
 router.delete("/:id", async (req, res) => {
-  await Users.findByIdAndDelete(req.params.id);
+  await User.findByIdAndDelete(req.params.id);
   res.send("User Deleted");
 });
 
