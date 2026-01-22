@@ -26,7 +26,7 @@ const distanceObj = {
 
 const Dashboard = () => {
   return (
-    <div className="w-[100%] mt-25 px-8">
+    <div className="w-[100%] mt-[12vh] px-8">
       <div>
         
       <div className="grid grid-cols-4 gap-8">

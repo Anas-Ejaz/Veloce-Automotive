@@ -10,7 +10,9 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import PublicLayout from "./PublicLayout";
 import AdminLayout from "./AdminLayout";
 
-import AdminPage from "./components/admin/AdminPage";
+import AdminPage from "./components/Admin/AdminPage";
+import AdminCars from "./components/Admin/Cars";
+import AdminBookings from "./components/Admin/Bookings";
 
 
 function App() {
@@ -28,7 +30,9 @@ function App() {
         </Route>
 
         <Route element={<AdminLayout/>} >
-          <Route path="Admin" element={<AdminPage/>} />
+          <Route path="/Admin/Dashboard" element={<AdminPage/>} />
+          <Route path="/Admin/Cars" element={<AdminCars/>} />
+          <Route path="/Admin/Bookings" element={<AdminBookings/>} />
         </Route>
       </Routes>
       </div>
