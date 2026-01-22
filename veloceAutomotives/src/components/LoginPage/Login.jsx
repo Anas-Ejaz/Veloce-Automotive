@@ -4,9 +4,9 @@ import Logo from "../../assets/veloce.png"
 
 export default function Login() {
   return (
-    <div className='w-full h-screen flex justify-center items-center' style={{background: ` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${loginImg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",}}>
+    <div className='w-full h-[110vh] mb-4 lg:mb-0 items-end lg:h-screen flex justify-center lg:items-center' style={{background: ` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${loginImg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",}}>
       
-      <div className="rounded-[40px] flex flex-col justify-center px-6 py-12 lg:px-8 w-[450px]" style={{ backgroundColor: 'rgba(20,71,230,0.3)', backdropFilter:'blur(6px)',}}>
+      <div className="rounded-[40px] flex flex-col justify-center px-6 py-12 lg:px-8 lg:w-[450px]" style={{ backgroundColor: 'rgba(20,71,230,0.3)', backdropFilter:'blur(6px)',}}>
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img src={Logo} alt="Veloce" className="mx-auto w-20" />
           <h2 className="text-center text-2xl/9 font-bold tracking-tight text-white">Log in to your account</h2>

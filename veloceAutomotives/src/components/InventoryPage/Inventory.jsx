@@ -41,7 +41,7 @@ function Inventory() {
         </div>
 
 
-            <div className='flex flex-row justify-between p-10'>
+            <div className='flex flex-row justify-between gap-5 lg:gap-0 lg:p-10'>
                 <button className='w-55 cursor-pointer hover:scale-105 transition'>
                     <img src={suv} alt="suv" className='rounded-xl'/>
                 </button>

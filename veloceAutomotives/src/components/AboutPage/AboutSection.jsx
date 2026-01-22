@@ -17,12 +17,12 @@ function AboutSection() {
         </h2> */}
         <div></div>
 
-        <div className="flex justify-center items-center gap-40 text-gray-400  ">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-40 text-gray-400  ">
           <div>
             <h1 className="text-5xl font-bold">
               1.5<span className="text-blue-600">K+</span>
             </h1>
-            <p className="text-gray-400 mt-1">Total Bookings</p>
+            <p className="text-gray-400 mt  -1">Total Bookings</p>
           </div>
 
           <div>

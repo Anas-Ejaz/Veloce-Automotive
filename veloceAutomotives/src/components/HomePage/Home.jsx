@@ -15,7 +15,6 @@ function Home() {
     <>
     <div>
       <MainPage/>
-      {/* <Hehe/> */}
       <AboutSection/>
       <ProblemSection/>
       <Subscription/>

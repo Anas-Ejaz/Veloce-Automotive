@@ -45,8 +45,8 @@ function MainPage() {
       className="w-full h-screen relative overflow-hidden bg-black" >
          <img src={bg} alt="bg" className="absolute inset-0 w-full h-full object-cover bg-black opacity-45"/>
 
-      <div className="relative mt-24 ml-8 bg-black/40 overflow-hidden rounded-2xl h-80 w-130  ">
-      <h1 className="absolute top-20 left-10 text-4xl font-extrabold space-x-4">
+      <div className="relative mt-50 lg:mt-25 bg-black/40 overflow-hidden rounded-2xl h-80 w-full  ">
+      <h1 className="absolute text-2xl left-5 top-20 lg:left-10 lg:text-4xl font-extrabold space-x-4">
         <span className="text-gray-400">Subscribe.</span>
         <span className="text-blue-600">Veloce.</span>
         <span className="text-gray-400">Swap.</span>
