@@ -5,13 +5,8 @@ import { FaLinkedin, FaGithub} from "react-icons/fa";
 export default function HeaderAnimated({open}) {
 
   return (
-<<<<<<< HEAD
     <div className='absolute top-[60px] right-[45px]'>
-        <div className={`${open ? "flex" : "hidden"} w-[200px] flex flex-col justify-between h-[250px] p-5 rounded-[10px] hover:flex`} style={{ backgroundColor: 'rgba(0,0,0,0.4)', backdropFilter:'blur(6px)'}}>
-=======
-    <div className='absolute top-[40px] right-[45px] lg:top-[60px]'>
         <div className={`${open ? "flex" : "hidden"} w-[200px] flex flex-col justify-between h-[250px] p-5 rounded-[10px] hover:flex`} style={{ backgroundColor: 'rgba(255,255,255,0.4)', backdropFilter:'blur(6px)'}}>
->>>>>>> 1b14a7a5799ebb71cbf39d32d19475751efe330a
 
             <div className="flex flex-col gap-1.5 text-white">
                 <div className='hover:text-gray-300'>
