@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 export default function Footer() {
   return (
-    <section className="bg-blue-700">
+    <section className="bg-gray-800">
       <div className="max-w-screen-xl h-[50vh] flex flex-col justify-center items-center px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         
         <div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-import v from "../../assets/v3.mp4";
+import v from "../../assets/v7.mp4";
 
 function AboutSection() {
 

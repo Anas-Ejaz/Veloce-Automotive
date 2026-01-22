@@ -1,12 +1,13 @@
 import React from 'react'
 import Depreciation from "../../assets/depreciation.png"
 import Aprs from "../../assets/interest.png"
-import Insurance from "../../assets/insurance.webp"
-import Maintenance from "../../assets/maintenance.webp"
-import Contract from "../../assets/contract.webp"
-import Tax from "../../assets/tax.webp"
-import Mileage from "../../assets/mileage.webp"
-import Fees from "../../assets/fees.webp"
+import Insurance from "../../assets/insurance.png"
+import Maintenance from "../../assets/maintenance.png"
+import Contract from "../../assets/contracts.png"
+import Tax from "../../assets/costs.png"
+import Mileage from "../../assets/mileage.png"
+import Fees from "../../assets/fees.png"
+
 
 function problemSection() {
   return (

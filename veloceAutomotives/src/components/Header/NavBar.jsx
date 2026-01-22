@@ -4,7 +4,7 @@ import { useState } from "react";
 import HeaderAnimated from "./HeaderAnimated";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState();
 
   const toggleMenu = () => {
     setIsOpen(prev => !prev);

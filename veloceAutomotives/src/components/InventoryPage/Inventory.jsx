@@ -26,7 +26,7 @@ function Inventory() {
 
         </div> */}
 
-        <div className='flex flex-col justify-center items-center w-full h-[60vh]' style={{
+        <div className='flex flex-col justify-center items-center w-full h-[60vh] pt-10' style={{
             background: ` linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${BgImg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -90,9 +90,9 @@ function Inventory() {
             </div>
 
 
-            <div>
+            {/* <div>
                 <Garage/>
-            </div>
+            </div> */}
       
     </div>
   )

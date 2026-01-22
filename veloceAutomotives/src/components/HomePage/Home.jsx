@@ -4,7 +4,7 @@ import AboutSection from "../AboutPage/AboutSection";
 import Hehe from "./Hehe";
 import Inventory from "../InventoryPage/Inventory";
 import ProblemSection from "./ProblemSection";
-import Hehe2 from "./Hehe2";
+import Subscription from "./Subscription";
 
 
 function Home() {
@@ -13,12 +13,12 @@ function Home() {
   }, []);
   return (
     <>
-    <div className="">
+    <div>
       <MainPage/>
-      <Hehe/>
+      {/* <Hehe/> */}
       <AboutSection/>
-      <Hehe2/>
       <ProblemSection/>
+      <Subscription/>
       </div>
     </>
   );
